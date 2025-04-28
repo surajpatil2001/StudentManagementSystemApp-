@@ -1,0 +1,50 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+
+  .login-box {
+    background: rgba(255, 255, 255, 0.15); /* translucent white */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 400px;
+    
+  }
+
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+
+  label {
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  .form-control {
+    border-radius: 8px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    border-radius: 8px;
+    
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+   
+  }
